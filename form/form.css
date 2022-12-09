@@ -1,0 +1,89 @@
+.Form {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #555555b6;
+  display: none;
+  place-items: center;
+}
+
+.Form__content {
+  background-color: var(--white-1);
+  border-radius: var(--borderRadius);
+  min-width: 512px;
+  overflow: hidden;
+  position: relative;
+}
+
+.Form__content_svg {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.Form__content_header {
+  padding: 14px 0 20px;
+  text-align: center;
+  border-bottom: var(--border);
+}
+
+.Form__content_header_title {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.Form__content_row {
+  padding: var(--padding);
+  display: grid;
+  place-items: center;
+}
+
+.Form__content_row_label {
+  font-size: 1.15rem;
+  font-weight: 600;
+  width: 85%;
+  letter-spacing: 1.25px;
+}
+
+.Form__content_row_input {
+  width: 80%;
+  display: block;
+  outline: none;
+  padding: 7px 10px;
+  font-size: 1rem;
+  border: var(--border);
+  border-radius: var(--borderRadius);
+  margin-top: 10px;
+}
+
+.Form__content_row_img {
+  padding: 10px;
+  border: var(--border);
+  border-radius: var(--borderRadius);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.Form__content_row_img_span {
+  font-size: 12px;
+  width: 28%;
+}
+
+.Form__content_btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 24px 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+}

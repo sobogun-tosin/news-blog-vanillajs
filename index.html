@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="form/form.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="Navbar">
+        <h1 class="Navbar__text">Simple News Platform</h1>
+      </nav>
+
+      <section class="Slider">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          class="bi bi-arrow-left-circle-fill Slider__Btn prev"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
+          />
+        </svg>
+        <div class="Slider__content">
+          <!-- Image slider -->
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          class="bi bi-arrow-right-circle-fill Slider__Btn next"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+          />
+        </svg>
+      </section>
+
+      <section class="News">
+        <header class="News__header">
+          <h1 class="News__header_title">News</h1>
+          <button class="News__header_btn">Add button</button>
+        </header>
+
+        <div class="Form">
+          <!-- Form content -->
+        </div>
+
+        <div class="News__content">
+          <!-- News content -->
+        </div>
+      </section>
+
+      <div class="Pagination">
+        <button class="Pagination__btn prev">prev</button>
+        <div class="Pagination__count">
+          <!-- Pagination count -->
+        </div>
+        <button class="Pagination__btn next">next</button>
+      </div>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
